@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HeroDetail"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/iv_foto"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ahmad_dahlan" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        android:text="KH. Ahmad Dahlan"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desc"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#000004"
+            />
+    </ScrollView>
+
+</LinearLayout>
